@@ -53,6 +53,12 @@ main{
   margin-top: -20px;
   margin-bottom: 20px;
 }
+.div-8{
+  margin: 50px auto;
+  max-width: 1216px;
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 590px){
   .div-2{

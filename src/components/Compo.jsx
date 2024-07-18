@@ -1,9 +1,7 @@
 import { useState } from "react"
 import Compon from "../index.json"
 function Compo() {
-  let raqamlar=Math.random()*100
-  console.log(raqamlar)
-    let [layki,setLayki]=useState(0)  
+    let [layki,setLayki]=useState(Math.random()*100)  
     let [qoshish,setQoshish]=useState(true)  
   return (
     <div className="div-1">
@@ -22,11 +20,8 @@ function Compo() {
     
     <h1 className="flex px-3 items-center textz"><p className="font-bold texts">Email:</p><p className=" text">{data.email}</p></h1>
     <h1 className="flex px-3 items-center textz"><p className="font-bold texts">Nomer:</p><p className=" text">{data.phone}</p></h1>
-    {qoshish&&<button onClick={()=>{setQoshish(false)}} className="px-3 flex">🤍{raqamlar}</button>}
-    {!qoshish&&<button onClick={()=>{setQoshish(true)}} className="px-3 flex">❤{raqamlar}</button>}
-  </div>
-  <div className="div-6">
- 
+    {qoshish&&<button onClick={()=>{setQoshish(false),setLayki(layki+1)}} className="px-3 flex">🤍{layki}</button>}
+    {!qoshish&&<button onClick={()=>{setQoshish(true),setLayki(layki-1)}} className="px-3 flex">❤{layki}</button>}
   </div>
 </div>
             </div>
