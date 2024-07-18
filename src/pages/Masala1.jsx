@@ -8,7 +8,7 @@ function Masala1() {
     const decrement = () => setRaqam(raqam - 1);
 
     return (
-        <div>
+        <div className='div-5'>
             <div className="flex w-full">
                 <button onClick={increment} className="card bg-base-300 rounded-box grid h-20 flex-grow place-items-center">
                     Raqam qo'shish ++

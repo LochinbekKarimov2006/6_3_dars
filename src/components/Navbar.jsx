@@ -65,7 +65,7 @@ function Navbar() {
   <div className=" navbar-end flex items-center">
   <label className="swap swap-rotate dropdown dropdown-end">
   {/* this hidden checkbox controls the state */}
-  <input onClick={()=>{thema()}} checked={rejim=='dark'} readOnly type="checkbox" type="checkbox" />
+  <input onClick={()=>{thema()}} checked={rejim=='dark'} readOnly type="checkbox"  />
 
   {/* sun icon */}
   <svg

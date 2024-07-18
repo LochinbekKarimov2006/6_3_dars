@@ -29,6 +29,31 @@ main{
   justify-content: space-between;
   gap: 20px;
 }
+.div-5{
+  padding: 0 5%;
+}
+.div-6{
+  margin: 50px 0;
+}
+.div-7{
+  margin: 0 auto;
+  max-width: 1216px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.div-7 img{
+  width: 300px;
+  border-radius:10%;
+  border: double 2px #4006ff;
+}
+.div-7 img:hover{
+  /* position:fixed; */
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 590px){
   .div-2{
     width: 220px;
