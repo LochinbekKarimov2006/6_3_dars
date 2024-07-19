@@ -6,6 +6,7 @@ import img4 from '../img/rasim4.jpg'
 import img5 from '../img/rasim5.jpg'
 import img6 from '../img/rasim5.jpg'
 function Masala4() {
+    let raqamlar=['img1','img2','img3','img4','img5']
   return (
     <div>
         <div className='div-12'>
@@ -16,6 +17,9 @@ function Masala4() {
         <img src={img3} alt="" />
         <img src={img4} alt="" />
         <img src={img5} alt="" />
+        {
+        <img className='img-1' src={img5} alt="" />
+        }
     </div>
 
     <button className="btn btn-wide">Wide</button>
