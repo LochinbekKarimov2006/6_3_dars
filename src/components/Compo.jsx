@@ -20,8 +20,8 @@ function Compo() {
     
     <h1 className="flex px-3 items-center textz"><p className="font-bold texts">Email:</p><p className=" text">{data.email}</p></h1>
     <h1 className="flex px-3 items-center textz"><p className="font-bold texts">Nomer:</p><p className=" text">{data.phone}</p></h1>
-    {qoshish&&<button onClick={()=>{setQoshish(false),setLayki(layki+1)}} className="px-3 flex">🤍{layki}</button>}
-    {!qoshish&&<button onClick={()=>{setQoshish(true),setLayki(layki-1)}} className="px-3 flex">❤{layki}</button>}
+    {/* {qoshish&&<button onClick={()=>{setQoshish(false),setLayki(layki+1)}} className="px-3 flex">🤍{layki}</button>}
+    {!qoshish&&<button onClick={()=>{setQoshish(true),setLayki(layki-1)}} className="px-3 flex">❤{layki}</button>} */}
   </div>
 </div>
             </div>
