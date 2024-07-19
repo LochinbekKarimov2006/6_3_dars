@@ -19,8 +19,8 @@ function Masala5() {
             <div className='w-56 bg-orange-900 h-5'><p className=' bg-orange-500 h-5' style={width}> </p></div>
         </div>
         <div className='div-11'>
-        <button onClick={()=>{setUzunlik(uzunlik-1)}} className="btn btn-outline">Default --</button>
-        <button onClick={()=>{setUzunlik(uzunlik+1)}} className="btn btn-outline">Default ++</button>
+        <button onClick={()=>{setUzunlik(uzunlik-1)}} className="btn btn-outline">Ayirish --</button>
+        <button onClick={()=>{setUzunlik(uzunlik+1)}} className="btn btn-outline">Qoshish ++</button>
 
         </div>
     </div>
