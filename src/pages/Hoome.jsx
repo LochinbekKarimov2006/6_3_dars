@@ -39,6 +39,7 @@ function Hoome() {
     </div>
 </div>
 </section>
+
 <Compon/>
 <Compo/>
     </div>
